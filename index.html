@@ -19,6 +19,44 @@ section{
     padding: 160px 15% 120px;
 }
 
+@media (max-width: 992px) {
+  section {
+    padding: 120px 4% 80px;
+  }
+  .portfolio-content {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+@media (max-width: 768px) {
+  section {
+    padding: 100px 2% 60px;
+  }
+  .portfolio-content {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+  .row img {
+    max-width: 100%;
+    height: auto;
+  }
+  .hi {
+    font-size: 32px;
+  }
+}
+@media (max-width: 450px) {
+  section {
+    padding: 60px 1% 30px;
+  }
+  .box {
+    padding: 18px 10px;
+  }
+  .box h3 {
+    font-size: 1.1rem;
+  }
+  .hi {
+    font-size: 22px;
+  }
+}
 
 .box{
     background: var(--bg-color);
@@ -247,16 +285,18 @@ section{
     </div>
     <div class="content">
         <h3>I'm Chandrakala</h3>
-        <span class="tag">Front-End Developer</span>
+        <span class="tag">Full Stack Developer</span>
+        <p style="font-size:1.2rem; color:#444; margin-top:0.5rem; font-weight:500;">I am into programming, MERN stack development, web designing, and front-end development.</p>
         
-        <p>I am a Front-End developer from India. 
-          
-          I am very passionate about improving my coding skills & developing applications & websites.
-          I build WebApps and Websites using MERN Stack.
-          Working for myself to improve my skills.
-          Developed responsive and interactive web applications using HTML, CSS, and JavaScript.
-          Collaborated with designers and backend developers to create seamless user experiences.
-            </p>
+        <p>
+        👩‍💻 <strong>Full Stack Developer | India</strong><br>
+        I am a passionate Full Stack Developer from India, focused on enhancing my coding skills and building dynamic web applications and websites using the MERN stack (MongoDB, Express.js, React.js, Node.js).<br><br>
+        ✨ I enjoy turning ideas into real-world projects and am constantly working on improving my frontend, backend, and database development skills.<br><br>
+        🚀 I have developed responsive and interactive web applications using HTML, CSS, JavaScript, and React. I focus on writing clean, maintainable code and implementing user-friendly designs that enhance overall functionality and performance.<br><br>
+        💼 I completed a web development internship at Unicuspro Private Limited, Hyderabad (Oct 2024 – Dec 2024, Remote), where I worked closely with developers and designers on live projects. During the internship, I contributed to frontend development by designing responsive and visually appealing web pages using HTML, CSS, and JavaScript. I also implemented CSS and JavaScript animations to enhance user engagement, improved UI responsiveness, participated in team discussions, and followed Git-based workflows for version control.<br><br>
+        🔧 <strong>Development Tools:</strong> Git, GitHub, VS Code, Google Colab<br>
+        💻 <strong>Tech Stack:</strong> MERN, HTML5, CSS3, JavaScript, Bootstrap, SQL
+        </p>
         
         <div class="box-container">
             <!-- <div class="box">
@@ -270,7 +310,7 @@ section{
         </div>
         
         <div class="resumebtn">
-            <a href="https://drive.google.com/file/d/1nFCJlfSmWZGfdkAikYbWVSGs4zy-1_ek/view?usp=sharing" target="_blank" class="btn"><span>Resume</span>
+            <a href="https://drive.google.com/file/d/117esgUzH0egU_k9aSnLkQ4824RHFvHvs/view?usp=sharing" target="_blank" class="btn"><span>Resume</span>
                 <i class="fas fa-chevron-right"></i>
             </a>
         </div>
@@ -287,15 +327,91 @@ section{
 
     <div class="container">
           <div class="row" id="skillsContainer">
-
-            <!-- <div class="bar">
-              <div class="info">
-                <img src="https://img.icons8.com/color/48/000000/adobe-xd.png"/>
-                <span>AdobeXD</span>
-              </div>
-            </div> -->
-
-      </div>
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png" alt="skill" />
+                    <span>ReactJS</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="skill" />
+                    <span>NodeJS</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="skill" />
+                    <span>Bootstrap</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="skill" />
+                    <span>HTML5</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/css3.png" alt="skill" />
+                    <span>CSS3</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="skill" />
+                    <span>JavaScript</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/python--v1.png" alt="skill" />
+                    <span>Python</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="skill" />
+                    <span>MongoDB</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="skill" />
+                    <span>MySQL</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png" alt="skill" />
+                    <span>Netlify</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/glyph-neue/48/ffffff/github.png" alt="skill" />
+                    <span>GitHub</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/fluent/48/000000/visual-studio-code-2019.png" alt="skill" />
+                    <span>VS Code</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/google-colab.png" alt="skill" />
+                    <span>Google Colab</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <img src="https://assets.vercel.com/image/upload/v1669993576/nextjs/Icon_dark_background.png" alt="skill" />
+                    <span>Vercel</span>
+                </div>
+            </div>
+        </div>
 </div>
 </section>
 <!-- skills section ends -->
@@ -317,7 +433,19 @@ section{
         <div class="content">
         <h3>Bachelor of Technology & Engineering</h3>
         <p>Sasi Institute Of Technology & Engineering</p>
-        <h4>2021-2025 | Pursuing</h4>
+        <h4>2021-2025 | Graduated</h4>
+        <p><strong>CGPA:</strong> 8.53</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+            <img draggable="false" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKLY01oFSVWQWWyTfqlRIEDEhrUpdavXZO9Q&s" alt="Sasi Junior College">
+        </div>
+        <div class="content">
+            <h3>Intermediate (10+2)</h3>
+            <p>Sasi Junior College</p>
+            <h4>2019-2021 | Completed</h4>
+            <p><strong>Percentage:</strong> 95.9%</p>
         </div>
     </div>
 
@@ -329,8 +457,12 @@ section{
       <h3>SSC</h3>
       <p>SMT.Annapurna VidyaNiketan </p>
       <h4>2018-2019 | Completed</h4>
+      <p><strong>CGPA:</strong> 9.8</p>
       </div>
     </div>
+
+    
+    <!-- Intermediate box ends -->
 
 </div>
 </section>
@@ -371,16 +503,13 @@ section{
       </div>
 
       <div class="row">
-          <img src="https://i.ytimg.com/vi/-Rzm5kkoRvI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCLqjIayyBurTrpXWQHkti3GfNqTA">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2lfTXuYbl-xRTd9NIcFEdyO6iNdDq2sXw9w&s" alt="Live Weather App" style="width:100%;height:240px;object-fit:cover;border-radius:8px;display:block;" />
           <div class="layer">
-              <h5>CommerceNest</h5>
-              <p>CommerceNest is a sleek and modern e-commerce website designed to offer an intuitive shopping experience.
-                   Built using HTML, CSS, and JavaScript, and deployed on Netlify, CommerceNest provides a platform
-                    for users to browse and purchase products effortlessly. The website focuses on delivering a responsive,
-                     fast, and visually appealing shopping
-                   experience without relying on server-side technologies.
-              </p>
-              <a href="https://spectacular-dasik-70af80.netlify.app/">Click</a>
+              <h5>
+                Live Weather App
+              </h5>
+              <p>The Live Weather App is a responsive web application built with React.js that fetches real-time weather data using the OpenWeatherMap API. Users can search for any city to view current weather details like temperature, humidity, and wind speed. The app features a clean UI, smooth user interactions, and handles invalid inputs gracefully.</p>
+              <a href="https://live-weather-rouge.vercel.app/" target="_blank" style="margin-right:10px;">Click</a>
           </div>
       </div>
 
@@ -400,7 +529,14 @@ section{
       </div>
       
   </div>
-  <h2 class="heading"><center class="hi">For<span>More Visit</span><li><a class="github" aria-label="GitHub" href="https://github.com/BhogavarapuChandrakala?tab=repositories" target="_blank"><i class="fab fa-github"></i></a></li></center></h2>
+  <h2 class="heading" style="margin-top: 2rem;">
+    <center class="hi">
+      For more projects, visit my 
+      <a class="github" aria-label="GitHub" href="https://github.com/BhogavarapuChandrakala?tab=repositories" target="_blank" style="font-weight:bold; color:#211F1F; text-decoration:underline;">
+        GitHub <i class="fab fa-github"></i>
+      </a>
+    </center>
+  </h2>
 
 
 </section>
@@ -468,7 +604,7 @@ section{
 
       <div class="box">
           <h3>contact info</h3>
-          <p> <i class="fas fa-phone"></i>+91 XXX-XXX-XXXX</p>
+          <p> <i class="fas fa-phone"></i>+91 7095068910</p>
           <p> <i class="fas fa-envelope"></i>chandrakala.bhogavarapu01@gmail.com</p>
           <p> <i class="fas fa-map-marked-alt"></i>AP,India--534301</p>
           <div class="share">

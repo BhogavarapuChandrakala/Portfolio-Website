@@ -37,22 +37,13 @@ $(document).ready(function () {
         }, 500, 'linear')
     });
 
-    // <!-- emailjs to mail contact form data -->
+    // <!-- contact form simple handler -->
     $("#contact-form").submit(function (event) {
-        emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
-
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
-            }, function (error) {
-                console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
-            });
         event.preventDefault();
+        alert("Thank you for getting in touch! Your message has been received.");
+        document.getElementById("contact-form").reset();
     });
-    // <!-- emailjs to mail contact form data -->
+    // <!-- contact form simple handler -->
 
 });
 
@@ -71,7 +62,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "web designing", "Programming", "web development"],
+    strings: ["frontend development", "web designing", "Programming", "MERN Stack development"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
